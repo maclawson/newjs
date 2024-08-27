@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+</head>
+<body>
+    <h1>CALCULATOR</h1>
+
+    <div id="calculator">
+        <div id="frame">MAC-CAL
+            <div id="screen"></div>
+            <div id="button">
+                <button onclick="printnumber(7)">7</button>
+                <button onclick="printnumber(8)">8</button>
+                <button onclick="printnumber(9)">9</button>
+                <button onclick="printnumber(4)">4</button>
+                <button onclick="printnumber(5)">5</button>
+                <button onclick="printnumber(6)">6</button>
+                <button onclick="printnumber(1)">1</button>
+                <button onclick="printnumber(2)">2</button>
+                <button onclick="printnumber(3)">3</button>
+            </div>
+            <div id="button1">
+                <button onclick="oncal(0)">ON</button>
+                <button onclick="offcal(1)">OFF</button>
+                <button onclick="Symbol(3)">X</button>
+                <button onclick="Symbol(2)">-</button>
+                <button onclick="Symbol(1)">+</button>
+                <button onclick="Symbol(4)">/</button>
+            </div>
+
+            <div id="button2">
+                <button id="last" onclick="printnumber(0)">0</button>
+                <button id="last">.</button>
+                <button onclick="deletenumber()" id="last">DEL</button>
+                <button onclick="clearscreen(1)" id="last">AC</button>
+                <button class="last1" onclick="solve(1)">=</button>
+
+            </div>
+        </div>
+        
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+    <script src="calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* height: 100vh; */
+    /* height: 100%; */
+    /* width: 90%; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #1d3169;
+    /* padding: 20px; */
+}
+#container{
+    /* height: 90%; */
+    width: 99%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    background: #64070e;
+    margin: 20px;
+    
+}
+#log{
+    height: 90px;
+    width: 95%;
+    /* background-color: rgb(88, 25, 25); */
+    padding-top: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+#log1{
+    height: 90px;
+    width: 90px;
+    background-color: rgb(197, 177, 177);
+    /* padding-top: 10px; */
+    /* margin: 200px; */
+    /* display: flex;
+    align-items: flex-end;
+    justify-content: flex-end; */
+}
+
+#writeup{
+    height: 100px;
+    width: 90%;
+    background-color: black;
+    margin: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#writeup1{
+    height: 90px;
+    width: 70%;
+    background-color: rgb(175, 155, 155);
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+    
+
+}
+h4{
+    text-align: start;
+}
+#textsection{
+    text-align: justify;
+}
+
+/* #writeup2{
+    height: 40px;
+    width: 50%;
+    background-color: rgb(105, 30, 30);
+    margin: 5px;
+    
+
+} */
+#bell{
+    height: 50px;
+    width: 8%;
+    background-color: blue;
+    margin: 10px;
+    border-radius: 100px;
+    
+}
+#buttons{
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    margin: 5px;
+}

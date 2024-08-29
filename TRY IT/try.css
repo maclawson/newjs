@@ -1,0 +1,194 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+#home{
+    height: 633px;
+    width: 100%;
+    /* background-color: brown; */
+    border: 5px solid;
+    display: flex;
+    flex-direction: column;
+    background-image: url(media/zenith-bank-icon-1933x2048-2wl7vzb3.png);
+}
+#navbar{
+    height: 90px;
+    width: 95%;
+    /* background-color: rgb(117, 106, 106); */
+    display: flex;
+    justify-content: flex-end;
+}
+#navbar1{
+    height: 50px;
+    width: 50px;
+    /* background-color: rgb(208, 212, 208); */
+    /* display: flex; */
+    margin: 20px;
+}
+#textsection{
+    height: 100px;
+    width: 70%;
+    /* background-color: rgb(26, 160, 14); */
+    margin-top: 20%;
+    /* border: 1px solid; */
+    /* display: flex; */
+    margin-left: 15%;
+    /* margin: 10px; */
+}
+#buttonsection{
+    height: 100px;
+    width: 100%;
+    /* background-color: rgb(26, 160, 14); */
+    /* border: 1px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#loginbutton{
+    width: 70%;
+    height: 40px;
+    color: green;
+    background-color: yellow;
+    margin-top: 10px;
+    /* border: 2px solid; */
+    border-radius: 5px;
+}
+#registerbutton{
+    width: 70%;
+    height: 40px;
+    color: rgb(147, 165, 42);
+    background-color: green;
+    margin-top: 10px;
+    /* margin-left: 60%; */
+    /* border: 2px solid; */
+    border-radius: 5px;
+}
+#accountsection{
+    width: 70%;
+    height: 55px;
+    /* border: 1px solid; */
+    display: flex;
+    margin-left: 15%;
+    margin-top: 5px;
+}
+#intenet{
+    width: 400px;
+    height: 30px;
+    /* border: 1px solid; */
+    margin-left: 30px;
+    margin-right: 50px;
+
+}
+#open{
+    width: 500px;
+    height: 30px;
+    /* border: 1px solid; */
+    /* margin-left: 30%; */
+    /* margin-right: 50%; */
+}
+#help{
+    width: 200px;
+    height: 30px;
+    /* border: 1px solid; */
+}
+#footerbox{
+    width: 30%;
+    height: 40px;
+    font-size: small;
+    margin-left: 35%;
+    margin-top: 3%;
+}
+@media screen and (max-width:578px) {
+    #home{
+        height: 624px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    #navbar{
+        /* width: 50px; */
+        height: 50px;
+        margin-right: 10px;
+    }
+    #textsection{
+        width: 70%;
+        height: 100px;
+        margin-top: 45%;
+        margin-left: 15%;
+    }
+    #buttonsection{
+        height: 100px;
+        width: 70%;
+        margin: 5px;
+        margin-left: 15%;
+        margin-top: 10%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    #loginbutton{
+        height: 40px;
+        width: 100%;
+        /* margin-left: 70%; */
+        background-color: rgb(6, 6, 48);
+        /* color: blue; */
+    }
+    #registerbutton{
+        height: 40px;
+        width: 100%;
+        /* margin-left: 70%; */
+    }
+    #accountsection{
+        height: 70px;
+        width: 70%;
+        /* margin: 50px; */
+
+
+    }
+    #intenet{
+        width: 300px;
+        height: 30px;
+        /* margin: 10px; */
+        /* border: 1px solid; */
+        margin-right: 10%;
+        margin-right: 10%;
+    }
+    #open{
+        width: 490px;
+        height: 40px;
+        margin: 0px;
+        /* border: 1px solid; */
+        /* margin-left: 20%; */
+        /* margin-right: 30px; */
+    }
+    #help{
+        width: 200px;
+        height: 30px;
+        margin: 5px;
+        /* border: 1px solid; */
+        margin-right: 5%;
+        margin-left: 12%;
+    }
+    #footerbox{
+        width: 75%;
+        height: 40px;
+        /* border: 2px solid; */
+        /* font-size: small; */
+        margin-left: 19%;
+        margin-top: 9%;
+    }
+    
+    
+
+
+
+
+
+
+
+
+
+}
